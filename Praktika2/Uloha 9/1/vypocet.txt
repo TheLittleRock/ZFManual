@@ -1,0 +1,34 @@
+polar. filtr: 0
+alfa[°]	U[mV] (+- 0.5 mV)
+20		14	12	08
+30		20	07	09
+40		32	06	10
+50		43	03	15
+60		60	02	25
+
+
+polar. filtr: 90
+alfa[°]	U[mV] (+- 0.5 mV)
+20		
+30		
+40		
+50		
+60		
+
+
+polar. filtr: 45
+alfa[°]	U[mV] (+- 0.5 mV)
+20		
+30		
+40		
+50		
+60		
+
+
+polar. filtr: 45 + labmda/4 desticka
+alfa[°]	U[mV] (+- 0.5 mV)
+20		03
+30		06
+40		07
+50		09
+60		15
