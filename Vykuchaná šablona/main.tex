@@ -1,0 +1,76 @@
+%  Typ dokumentu - článek, prezentace aj.
+% Standardní základ
+%\documentclass[a4paper,10pt]{article} 
+%\usepackage[letterpaper]{geometry}
+%\geometry{verbose,tmargin=1.5cm,bmargin=2cm,lmargin=2cm,rmargin=2cm}
+% Alternativní verze - vhodnější formát papíru (větší hustota textu)
+\documentclass[10pt]{scrartcl}
+\KOMAoptions{DIV=20} % formát papíru a odsazení od jeho okrajů
+\usepackage{zfm}
+
+
+% ----------------------------------------------------------------------
+%  Začátek dokumentu - formátování na výstup
+% ----------------------------------------------------------------------
+\begin{document}
+
+% Interní proměnné, možno zobrazovat u prezentací, používají se při
+% generování pomocí \titlepage apod.
+\author{\Author}
+\title{\Title}
+\date{\Labdate}
+
+
+% ----------------------------------------------------------------------
+%  Hlavička dokumentu
+% ----------------------------------------------------------------------
+\input{hlavicka.tex}
+% ----------------------------------------------------------------------
+%  Tělo dokumentu
+% ----------------------------------------------------------------------
+
+\setlength{\parindent}{0.5cm}
+
+% ----------------------------------------------------------------------
+%  Protokol
+
+\pagenumbering{arabic}  % číslování stránek čísly
+\input{tex/protokol}
+% ----------------------------------------------------------------------
+
+% ----------------------------------------------------------------------
+%  Literatura
+
+\setcounter{biburllcpenalty}{7000}
+\setcounter{biburlucpenalty}{8000}
+% Pokud si chcete zkontrolovat, co vše máte v bibliografii:
+% \nocite{*} 
+\printbibliography[title={Použitá literatura},heading=bibnumbered]
+
+
+
+% ----------------------------------------------------------------------
+%  Příloha
+
+\clearpage 
+\pagenumbering{roman}  % číslování stránek písmeny
+
+\setcounter{equation}{0}
+%\setcounter{section}{0}
+\numberwithin{equation}{section} % případné rovnice budou číslované pod číslem kapitoly
+
+\part*{\LARGE{Příloha}}
+
+\input{tex/apendix}
+% ----------------------------------------------------------------------
+
+%\clearpage
+				
+%\clearpage
+
+
+\end{document}
+
+% ----------------------------------------------------------------------
+%  Konec dokumentu
+% ----------------------------------------------------------------------
