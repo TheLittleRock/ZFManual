@@ -4,3 +4,4 @@ uncertainties
 matplotlib
 jupyterlab
 jupyter-book
+sphinxcontrib.youtube
