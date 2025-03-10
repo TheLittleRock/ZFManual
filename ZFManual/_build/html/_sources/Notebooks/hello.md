@@ -52,3 +52,7 @@ Zde je průvodce praktiky od legendární paní slečny Timey.
 
 
 ## Užité (a užitečné) zdroje:
+
+
+
+DOPLNIT!

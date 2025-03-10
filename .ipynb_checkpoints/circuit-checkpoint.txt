@@ -1,0 +1,11 @@
+.. tikz:: \begin{quantikz}[row sep={.75cm,between origins}, column sep=.5cm]
+        \lstick{\ket{\phi_\mathrm{n}}} &&&& \hspace{.4em} \dots \hspace{.4em} & \gate{U_n^a} & \gate{U_n^b} && \meter{} \\
+        \lstick{\vdots} \hspace{1.5em} & \setwiretype{n}& \setwiretype{n}&\setwiretype{n}&\setwiretype{n}&\setwiretype{n}&\setwiretype{n}&\setwiretype{n}&\vdots \\
+        \lstick{\ket{\phi_\mathrm{1}}}  && \gate{U_1^a} & \gate{U_1^b} & \hspace{.4em} \dots \hspace{.4em} &&&& \meter{} \\
+        \lstick{\ket{f}} \hspace{.5em} & \gate{U} & \ctrl[open]{-1} & \ctrl{-1} & \hspace{.4em} \dots \hspace{.4em} & \ctrl[open]{-3} & \ctrl{-3} & \gate{U^\dag}& \meter{} \\
+        \end{quantikz}
+   :libs:   quantikz
+
+```{tikz} \begin{quantikz}[row sep={.75cm,between origins}, column sep=.5cm] \lstick{\ket{\phi_\mathrm{n}}} &&&& \hspace{.4em} \dots \hspace{.4em} & \gate{U_n^a} & \gate{U_n^b} && \meter{} \\ \lstick{\vdots} \hspace{1.5em} & \setwiretype{n}& \setwiretype{n}&\setwiretype{n}&\setwiretype{n}&\setwiretype{n}&\setwiretype{n}&\setwiretype{n}&\vdots \\ \lstick{\ket{\phi_\mathrm{1}}}  && \gate{U_1^a} & \gate{U_1^b} & \hspace{.4em} \dots \hspace{.4em} &&&& \meter{} \\ \lstick{\ket{f}} \hspace{.5em} & \gate{U} & \ctrl[open]{-1} & \ctrl{-1} & \hspace{.4em} \dots \hspace{.4em} & \ctrl[open]{-3} & \ctrl{-3} & \gate{U^\dag}& \meter{} \\ \end{quantikz}
+   :libs:   quantikz
+```
