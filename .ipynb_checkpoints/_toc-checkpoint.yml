@@ -1,0 +1,14 @@
+format: jb-article
+root: Notebooks/hello
+title: Úvod
+options:
+  numbered: true
+sections:
+- file: Notebooks/Numpy
+  title: Knihovna NumPy
+- file: Notebooks/Grafy
+  title: Grafy s matplotlib
+- file: Notebooks/Nejistoty
+  title: Nejistoty měření
+- file: Notebooks/Fitovani
+  title: Fit pomocí SciPy
