@@ -8,10 +8,6 @@ html[data-theme="light"] {
     --pst-color-background: #f1f1f1!important;
 }
 
-html[data-theme="dark"] {
-    --pst-color-background: #161c25!important;
-}
-
 @media(min-width: 1200px) {
     .bd-sidebar-secondary {
         flex-grow:.75;s

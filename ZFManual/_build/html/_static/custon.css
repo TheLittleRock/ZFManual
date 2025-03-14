@@ -1,20 +1,12 @@
 html[data-theme="dark"], html[data-theme="light"] {
-    --pst-color-secondary: #03ad63;
+    --pst-color-secondary: #0f85b8;
     --pst-color-link: #029957;
     --pst-color-primary: #029957;
 }
 
-html[data-theme="light"] {
-    --pst-color-background: #f1f1f1!important;
-}
-
-html[data-theme="dark"] {
-    --pst-color-background: #161c25!important;
-}
-
 @media(min-width: 1200px) {
     .bd-sidebar-secondary {
-        flex-grow:.75;s
+        flex-grow:.75;
         height: 100vh;
         margin-right: -75%;
         max-height: 100vh;
@@ -48,22 +40,6 @@ html[data-theme="dark"] {
 
 @media(min-width: 1200px) {
     .sidebar-toggle.secondary-toggle {
-        display:flex!important
+        display:flex;
     }
-}
-
-.bg-dark {
-    background-color: #029957!important;
-}
-
-.sd-card-header {
-    color: white!important;
-}
-
-.bd-sidebar {
-  scrollbar-width: none!important;
-}
-
-.bd-main {
-  scrollbar-width: none!important;
 }
